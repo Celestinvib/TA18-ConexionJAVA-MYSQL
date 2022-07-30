@@ -24,7 +24,7 @@ public class mainApp {
 	}
 	
 	/**
-	* Metodo donde se realiza la creacion de la estructura mysql con datos staticos
+	* Metodo donde se realiza la creacion de la estructura mysql con datos estaticos
 	*/
 	public static void structureCreation(SQLConnection conexion) {
 		
@@ -48,7 +48,7 @@ public class mainApp {
 		conexion.insertData(dbName,"INSERT INTO Empleados (DNI,Nombre, Apellidos, Departamento) VALUE ('41539450','Clara','Ruiz Ruiz','3');");	
 		conexion.insertData(dbName,"INSERT INTO Empleados (DNI,Nombre, Apellidos, Departamento) VALUE ('48391395','Aroa','Mendoza','4');");	
 		conexion.insertData(dbName,"INSERT INTO Empleados (DNI,Nombre, Apellidos, Departamento) VALUE ('41277319','Mark','Garcia','5');");	
-			}
+	}
 	
 	
 	

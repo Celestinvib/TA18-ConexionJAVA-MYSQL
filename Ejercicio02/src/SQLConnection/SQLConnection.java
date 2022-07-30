@@ -8,10 +8,12 @@ import java.sql.Statement;
 import javax.swing.JOptionPane;
 
 public class SQLConnection {
-	
+
+	/** Atributo */
 	public Connection conexion;
 	
-	
+
+	/** Constructor */
 	public SQLConnection () {
 		makeConection();
 	}
